@@ -1,0 +1,8 @@
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/DataCollection/CMSIS/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	16	static
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/DataCollection/CMSIS/Include/core_cm3.h:1639:22:__NVIC_SetPriority	16	static
+../Peripherals/Src/usart.c:15:6:usart_init	8	static
+../Peripherals/Src/usart.c:38:6:USART1_INIT	8	static
+../Peripherals/Src/usart.c:94:6:WRITE_USART_TX_BUFFER	16	static
+../Peripherals/Src/usart.c:100:9:USART1_TRANSMIT_IT	4	static
+../Peripherals/Src/usart.c:111:6:USART1_TRANSMIT	16	static
+../Peripherals/Src/usart.c:131:6:USART1_IRQHandler	4	static

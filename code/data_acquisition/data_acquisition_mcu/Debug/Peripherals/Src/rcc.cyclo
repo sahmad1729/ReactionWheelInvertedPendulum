@@ -1,0 +1,6 @@
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/DataCollection/CMSIS/Include/core_cm3.h:1600:22:__NVIC_ClearPendingIRQ	2
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/DataCollection/CMSIS/Include/core_cm3.h:1639:22:__NVIC_SetPriority	2
+../Peripherals/Src/rcc.c:11:6:RCC_HSE_CONFIG	4
+../Peripherals/Src/rcc.c:57:6:SYSTICK_INIT	1
+../Peripherals/Src/rcc.c:73:10:GET_MSTICKS	1
+../Peripherals/Src/rcc.c:78:6:SysTick_Handler	1

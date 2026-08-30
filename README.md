@@ -49,7 +49,7 @@ The embedded system operates with a **100 Hz control loop**.
 
 **Hardware:**
 <p align="center">
-  <img src="setup.png" alt="Reaction Wheel Inverted Pendulum" width="300">
+  <img src="figures/hardware.png" alt="Reaction Wheel Inverted Pendulum" width="300">
 </p>
 
 ---
@@ -108,7 +108,7 @@ The experimental data was subsequently used for system identification.
 
 **Motor Response:**
 <p align="center">
-  <img src="riseAndSettlingTime.png" alt="Reaction Wheel Inverted Pendulum" width="500">
+  <img src="figures/motor_response.png" alt="Reaction Wheel Inverted Pendulum" width="500">
 </p>
 
 ---
@@ -149,7 +149,7 @@ The resulting model provided a substantially more representative simulation of t
 **System identification result:**
 
 <p align="center">
-  <img src="pendulumParameterEstimationTrain.png" alt="Reaction Wheel Inverted Pendulum" width="500">
+  <img src="figures/system_identification.png" alt="Reaction Wheel Inverted Pendulum" width="500">
 </p>
 
 ---
@@ -186,7 +186,7 @@ The learned policy was evaluated in simulation before being transferred to the p
 
 **RL results:**
 <p align="center">
-  <img src="angle_performance.png" alt="Reaction Wheel Inverted Pendulum" width="900">
+  <img src="figures/rl_results.png" alt="Reaction Wheel Inverted Pendulum" width="900">
 </p>
 
 ---
@@ -224,7 +224,7 @@ This allows the policy trained in simulation to run directly on the physical rea
 ## Demonstrations
 **PPO: Simulation vs Experiment**
 <p align="center">
-  <img src="PPO_Sim_vs_Real_Gif.gif" alt="Reaction Wheel Inverted Pendulum">
+  <img src="videos/ppo_sim_vs_real.gif" alt="Reaction Wheel Inverted Pendulum">
 </p>
 
 ---
@@ -236,21 +236,20 @@ This allows the policy trained in simulation to run directly on the physical rea
 ├── README.md
 │
 ├── code/
-│   ├── modeling/
 │   ├── data_acquisition/
-│   ├── system_identification/
 │   ├── reinforcement_learning/
-│   └── embedded/
+│   └── agent_deployment/
 │
 ├── figures/
-│   ├── hardware.jpg
-│   ├── cad.png
+│   ├── hardware.png
+│   ├── motor_response.png
 │   ├── system_identification.png
 │   └── rl_results.png
 │
 └── videos/
-    ├── simulation.mp4
-    └── hardware.mp4
+    ├── dqn_sim_vs_real.mp4
+    ├── ppo_sim_vs_real.mp4
+    └── ppo_sim_vs_real.gif
 ```
 
 ---

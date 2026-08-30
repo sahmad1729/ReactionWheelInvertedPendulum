@@ -1,0 +1,6 @@
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/AgentDeployment/CMSIS/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	2
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/AgentDeployment/CMSIS/Include/core_cm3.h:1639:22:__NVIC_SetPriority	2
+../Peripherals/Src/can.c:12:6:CAN_INIT	5
+../Peripherals/Src/can.c:81:6:CAN_TRANSMIT	2
+../Peripherals/Src/can.c:104:6:USB_LP_CAN1_RX0_IRQHandler	3
+../Peripherals/Src/can.c:131:6:USB_HP_CAN1_TX_IRQHandler	4

@@ -1,0 +1,8 @@
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/AgentDeployment/CMSIS/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	2
+C:/Users/Newton/Desktop/STM32F103C8_PROJECTS/AgentDeployment/CMSIS/Include/core_cm3.h:1639:22:__NVIC_SetPriority	2
+../Peripherals/Src/gpio.c:11:6:GPIO_LED_CONFIG	2
+../Peripherals/Src/gpio.c:27:6:GPIO_LED_ON	1
+../Peripherals/Src/gpio.c:33:6:GPIO_LED_OFF	1
+../Peripherals/Src/gpio.c:39:6:GPIO_LED_TOGGLE	1
+../Peripherals/Src/gpio.c:44:6:GPIOA_EXTI_CONFIG	1
+../Peripherals/Src/gpio.c:70:6:EXTI0_IRQHandler	4
